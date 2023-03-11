@@ -6,7 +6,7 @@ import Calendar from "./Calendar";
 function App() {
 
 //Handle dropdown of calendar pane
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
 
   function isCalendar() {
     setVisible(!visible);
