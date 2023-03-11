@@ -65,6 +65,7 @@ function App() {
     setDay(d);
     setMonth(m);
     setYear(y);
+    setYearSelected("Year...");
   }
 
   function handleConfirm(e) {
