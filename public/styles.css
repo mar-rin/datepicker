@@ -1,0 +1,192 @@
+body {
+  padding: 30px;
+  font-family: "Cantarell", serif;
+  color: #6096B4;
+  background-color: #fefffa;
+  background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.text-box {
+  border: 2px solid;
+  width: 294px; 
+  padding: 6px;
+  margin: 40px 0 10px 10px;
+  border-color: #BDCDD6;
+  background-color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.calendar-icon {
+  float: right;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.text-sub {
+  margin-left: 16px;
+  margin-bottom: 30px;
+}
+
+.calendar-pad {
+  color: #6096B4;
+  border: 2px solid;
+  width: 294px; 
+  height: 400px;
+  padding: 6px;
+  margin-left: 10px;
+  border-color: #BDCDD6;
+  border-radius: 5px;
+  background: rgba(51, 170, 51, .1) 
+  /* background-color: #e9edf1; */
+}
+
+.dropdown-bar {
+  display: flex;
+  padding-left: 4px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.years {
+  margin-left: 4px;
+  margin-top: 10px;
+  padding-top: 3px;
+  display: flex;
+  font-size: 16px;
+  width: 144px;
+  height: 38px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  justify-content: space-between;
+  color: #7a7e80;
+}
+
+.arrows {
+  float: top;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+.year {
+  padding-top: 6px;
+}
+
+.selected {
+  color: #467082;
+}
+
+.months {
+  margin: 10px 6px 10px 0px; 
+}
+
+
+.drop-click {
+  display: block;
+  cursor: pointer;
+}
+
+.unit-name {
+  display: flex;
+  float: left;
+  margin: -4px 6px 
+}
+
+.chevron-down {
+  display: flex;
+  margin-top: 3px;
+  padding-right: 8px
+}
+
+.week {
+  margin: 17px 0px 14px 16px;
+  display: flex;
+  font-weight: 600;
+}
+
+.weekdays {
+  padding-right: 28px;
+}
+
+.date-field {
+  display: block;
+  float: left;
+  width: 282px;
+  margin-left: 4px;
+  margin-bottom: 20px;
+  padding: 2px; 
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.single-date {
+  display: flex;
+  float: left;
+  margin: 7px 7px;
+}
+
+.circular-date {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  border: none;
+  color: #6096B4;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #e9f0f5
+}
+
+.circular-date.gray {
+  pointer-events: none;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #fff;
+  border: none;
+}
+
+.active {
+  background-color: #6096B4;
+  border-color: #6096B4;
+  color: white;
+}
+
+.confirm-bar {
+  position: absolute;
+  top: 616px;
+  left: 222px;
+  display: block;
+  padding: 6px;
+}
+
+.submit {
+  float: right;
+  margin: 0 8px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  border: 1px solid #7a7e80;
+  color: #224b5f;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.submit.cancelled:hover {
+  background-color: #fc4d2e; 
+  color: white;
+}
+
+/* color scheme:
+dark blue #6096B4
+light blue #93BFCF
+gray #BDCDD6
+beige #EEE9DA */ 
